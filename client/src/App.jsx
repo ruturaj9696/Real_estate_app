@@ -11,7 +11,6 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <SignUp />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
