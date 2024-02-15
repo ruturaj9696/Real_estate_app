@@ -1,4 +1,4 @@
-import { Sidebar } from "flowbite-react";
+import { Button, Sidebar } from "flowbite-react";
 import { useEffect, useState } from "react";
 import { HiUser, HiUsers } from "react-icons/hi";
 import { HiArrowRight } from "react-icons/hi";
@@ -27,6 +27,7 @@ function DashSidebar() {
               label={"user"}
               labelColor="dark"
               className="inline-block mr-10"
+              as="button"
             >
               Profile
             </Sidebar.Item>
